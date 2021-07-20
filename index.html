@@ -14,7 +14,7 @@
 <body>
     <!-- header part start -->
     <header>
-        <nav class="navbar navbar-expand-lg navbar-light bg-light  ">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
             <div class="container">
                 <a class="navbar-brand" href="#">
                     <img src="images/logo.png" alt="" width="159" height="40">
@@ -33,9 +33,9 @@
                 <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                     <div class="navbar-nav ms-auto">
                         <a class="nav-link active" aria-current="page" href="#">Home</a>
-                        <a class="nav-link active" href="#">Product</a>
-                        <a class="nav-link active" href="#">About-us</a>
-                        <a class="nav-link active" href="#">Contact-us</a>
+                        <a class="nav-link active" href="#shoes">shoes</a>
+                        <a class="nav-link active" href="#bags">bags</a>
+                        <a class="nav-link active" href="#subscribe">subscribe</a>
 
                     </div>
                 </div>
@@ -82,7 +82,7 @@
                                 <button type="button" class="btn btn-warning">Warning</button>
                             </div>
                             <div class="col-lg-5">
-                                <img src="images/banner-images/tv.png" class="d-block w-100" alt="...">
+                                <img src="images/banner-images/tv (2).png" class="d-block w-100" alt="...">
                             </div>
                         </div>
                     </div>
@@ -157,7 +157,7 @@
 
         <!-- shoes section start  -->
 
-        <section class="container">
+        <section class="container " id="shoes">
             <h1>Shoes</h1>
             <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4 my-5">
                 <div class="col">
@@ -209,8 +209,8 @@
 
         <!-- bags section start  -->
 
-        <section class="container">
-            <h1>Shoes</h1>
+        <section class="container" id="bags">
+            <h1>bags</h1>
             <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4 my-5">
                 <div class="col">
                     <div class="card h-100 border-0 shadow-lg">
@@ -257,7 +257,30 @@
 
         <!-- bags section end  -->
 
+
+        <!-- subscribe part start  -->
+
+        <section style="height: 300px;" id="subscribe"
+            class="container bg-info mb-3 d-flex justify-content-center align-items-center">
+
+            <div>
+                <h1>LET'S STAY IN TOUCH</h1>
+                <p>Get updates on sales specials and more</p>
+                <input type="text" class="form-control" placeholder="Email for subscribtion" aria-label="Username"
+                    aria-describedby="addon-wrapping">
+                <br>
+                <button type="button" class="btn btn-warning">submit</button>
+            </div>
+
+        </section>
+
+        <!-- subscribe part end  -->
+
     </main>
+
+    <footer class="text-center">
+        <small>Copyrihgt@deservs only Billal</small>
+    </footer>
 
 
 
